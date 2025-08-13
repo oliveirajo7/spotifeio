@@ -28,7 +28,12 @@
             ],
             "styles": [
               "src/styles.scss"
-            ]
+            ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/styles"
+              ]
+            }
           },
           "configurations": {
             "production": {
@@ -87,5 +92,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3c38bc9d-0c5a-4a72-aa7c-46db2b5a2f7d"
   }
 }
