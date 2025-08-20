@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { SpotifyConfiguration } from "../../enviroment/enviroment";
+import { SpotifyConfiguration } from "../../environment/environment";
 
 @Injectable({
   providedIn: 'root'
@@ -25,6 +25,7 @@ export class SpotifyService {
   async gerarCodigoAleatorio() {
     // const codigoVerificador = this.gerarCodigoVerificador(128);
     // const codChallenge = await this.gerarHash(codigoVerificador);
+    
     return ''; //codChallenge;
   }
 }
