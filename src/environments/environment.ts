@@ -2,6 +2,7 @@ export const environment = {
   production: false
 }
 
+
 export const SpotifyConfiguration = {
   clientId: '4603d931ef8244d5bc9fd88f69217415',
   authEndpoint: 'https://accounts.spotify.com/authorize',
