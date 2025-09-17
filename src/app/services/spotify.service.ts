@@ -1,5 +1,5 @@
 import {inject, Injectable} from "@angular/core";
-import { environment as SpotifyConfiguration } from '../../environments/environment';
+import {SpotifyConfiguration} from "../../enviroment/enviroment";
 import SpotifyWebApi from 'spotify-web-api-js';
 import {Router} from '@angular/router';
 

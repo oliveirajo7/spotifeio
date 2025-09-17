@@ -1,4 +1,3 @@
-
 import {ChangeDetectionStrategy, Component, inject, OnInit} from "@angular/core";
 import {SpotifyService} from "../../services/spotify.service";
 import {Router} from '@angular/router';
